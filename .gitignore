@@ -1,0 +1,49 @@
+# === Rails Backend (rewards-api) ===
+
+/rewards-api/.bundle
+/rewards-api/log/*
+/rewards-api/tmp/*
+!/rewards-api/log/.keep
+!/rewards-api/tmp/.keep
+
+/rewards-api/tmp/pids/*
+!/rewards-api/tmp/pids/
+/rewards-api/tmp/pids/.keep
+
+/rewards-api/storage/*
+!/rewards-api/storage/.keep
+/rewards-api/tmp/storage/*
+!/rewards-api/tmp/storage/
+/rewards-api/tmp/storage/.keep
+
+/rewards-api/config/master.key
+
+# Ignore all environment files (except templates).
+/rewards-api/.env*
+!/rewards-api/.env*.erb
+
+# === React Frontend (rewards-fe) ===
+
+/rewards-fe/logs
+/rewards-fe/*.log
+/rewards-fe/npm-debug.log*
+/rewards-fe/yarn-debug.log*
+/rewards-fe/yarn-error.log*
+/rewards-fe/pnpm-debug.log*
+/rewards-fe/lerna-debug.log*
+
+/rewards-fe/node_modules
+/rewards-fe/dist
+/rewards-fe/dist-ssr
+/rewards-fe/*.local
+
+# Editor directories and files
+/rewards-fe/.vscode/*
+!/rewards-fe/.vscode/extensions.json
+/rewards-fe/.idea
+/rewards-fe/.DS_Store
+/rewards-fe/*.suo
+/rewards-fe/*.ntvs*
+/rewards-fe/*.njsproj
+/rewards-fe/*.sln
+/rewards-fe/*.sw?
