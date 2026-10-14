@@ -1,49 +1,49 @@
-# === Rails Backend (rewards-api) ===
+# === Rails Backend (rewards-redemption-api) ===
 
-/rewards-api/.bundle
-/rewards-api/log/*
-/rewards-api/tmp/*
-!/rewards-api/log/.keep
-!/rewards-api/tmp/.keep
+/rewards-redemption-api/.bundle
+/rewards-redemption-api/log/*
+/rewards-redemption-api/tmp/*
+!/rewards-redemption-api/log/.keep
+!/rewards-redemption-api/tmp/.keep
 
-/rewards-api/tmp/pids/*
-!/rewards-api/tmp/pids/
-/rewards-api/tmp/pids/.keep
+/rewards-redemption-api/tmp/pids/*
+!/rewards-redemption-api/tmp/pids/
+/rewards-redemption-api/tmp/pids/.keep
 
-/rewards-api/storage/*
-!/rewards-api/storage/.keep
-/rewards-api/tmp/storage/*
-!/rewards-api/tmp/storage/
-/rewards-api/tmp/storage/.keep
+/rewards-redemption-api/storage/*
+!/rewards-redemption-api/storage/.keep
+/rewards-redemption-api/tmp/storage/*
+!/rewards-redemption-api/tmp/storage/
+/rewards-redemption-api/tmp/storage/.keep
 
-/rewards-api/config/master.key
+/rewards-redemption-api/config/master.key
 
 # Ignore all environment files (except templates).
-/rewards-api/.env*
-!/rewards-api/.env*.erb
+/rewards-redemption-api/.env*
+!/rewards-redemption-api/.env*.erb
 
-# === React Frontend (rewards-fe) ===
+# === React Frontend (rewards-redemption-web) ===
 
-/rewards-fe/logs
-/rewards-fe/*.log
-/rewards-fe/npm-debug.log*
-/rewards-fe/yarn-debug.log*
-/rewards-fe/yarn-error.log*
-/rewards-fe/pnpm-debug.log*
-/rewards-fe/lerna-debug.log*
+/rewards-redemption-web/logs
+/rewards-redemption-web/*.log
+/rewards-redemption-web/npm-debug.log*
+/rewards-redemption-web/yarn-debug.log*
+/rewards-redemption-web/yarn-error.log*
+/rewards-redemption-web/pnpm-debug.log*
+/rewards-redemption-web/lerna-debug.log*
 
-/rewards-fe/node_modules
-/rewards-fe/dist
-/rewards-fe/dist-ssr
-/rewards-fe/*.local
+/rewards-redemption-web/node_modules
+/rewards-redemption-web/dist
+/rewards-redemption-web/dist-ssr
+/rewards-redemption-web/*.local
 
 # Editor directories and files
-/rewards-fe/.vscode/*
-!/rewards-fe/.vscode/extensions.json
-/rewards-fe/.idea
-/rewards-fe/.DS_Store
-/rewards-fe/*.suo
-/rewards-fe/*.ntvs*
-/rewards-fe/*.njsproj
-/rewards-fe/*.sln
-/rewards-fe/*.sw?
+/rewards-redemption-web/.vscode/*
+!/rewards-redemption-web/.vscode/extensions.json
+/rewards-redemption-web/.idea
+/rewards-redemption-web/.DS_Store
+/rewards-redemption-web/*.suo
+/rewards-redemption-web/*.ntvs*
+/rewards-redemption-web/*.njsproj
+/rewards-redemption-web/*.sln
+/rewards-redemption-web/*.sw?

@@ -1,4 +1,4 @@
-# Rewards Redemption Web App
+# Rewards Redemption Platform
 
 This is a full-stack web application that allows a user to:
 
@@ -26,7 +26,7 @@ This is a full-stack web application that allows a user to:
 #### 1. Clone & Setup
 
 ```bash
-cd rewards-api
+cd rewards-redemption-api
 bundle install
 rails db:create db:migrate db:seed
 ```
@@ -58,7 +58,7 @@ The API will run on:
 #### 1. Setup Frontend
 
 ```bash
-cd rewards-fe
+cd rewards-redemption-web
 npm install
 ```
 
